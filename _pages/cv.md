@@ -11,35 +11,37 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Civil Engineering, Tongji University, 2027 (expected)
+* B.E. in Mining Engineering, China University of Mining and Technology, 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2025.08 - 2026.01: Visiting graduate student
+  * Cornell University, USA
+  * Sibley School of Mechanical & Aerospace Engineering  
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2025.01 - 2025.07: Visiting graduate student
+  * University of Notre Dame, USA
+  * Department of Aerospace and Mechanical Engineering
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* 2023.09 - 2023.12: Visiting graduate student
+  * King Abdullah University of Science and Technology (KAUST), Saudi Arabia
+  * Physical Science and Engineering Division
+
+* 2019.02 - 2019.06: Visiting undergraduate student
+  * Montanuniversität Leoben, Austria
+  * Department of Mineral Resources Engineering
+
+Research interests
+======
+* Machine learning
+* Reservoir engineering
+* Numerical simulation
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Reservoir simulation (TOUG3, FLAC3D, GSTools, ...)
+* Machine learning (PyTorch, scikit-learn, pymoo, ...)
 
 Publications
 ======
@@ -47,7 +49,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -61,4 +63,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
