@@ -16,19 +16,19 @@ Education
 
 Work experience
 ======
-* 2025.08 - 2026.01: Visiting graduate student
+* 2025.08 - 2026.01: Visiting researcher
   * Cornell University, USA
   * Sibley School of Mechanical & Aerospace Engineering  
 
-* 2025.01 - 2025.07: Visiting graduate student
+* 2025.01 - 2025.07: Visiting researcher
   * University of Notre Dame, USA
   * Department of Aerospace and Mechanical Engineering
 
-* 2023.09 - 2023.12: Visiting graduate student
+* 2023.09 - 2023.12: Visiting researcher
   * King Abdullah University of Science and Technology (KAUST), Saudi Arabia
   * Physical Science and Engineering Division
 
-* 2019.02 - 2019.06: Visiting undergraduate student
+* 2019.02 - 2019.06: Visiting student
   * Montanuniversität Leoben, Austria
   * Department of Mineral Resources Engineering
 
@@ -40,8 +40,8 @@ Research interests
 
 Skills
 ======
-* Reservoir simulation (TOUG3, FLAC3D, GSTools, ...)
-* Machine learning (PyTorch, scikit-learn, pymoo, ...)
+* Reservoir simulation
+* Machine learning
 
 Publications
 ======
