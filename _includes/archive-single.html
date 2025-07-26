@@ -69,28 +69,17 @@
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }}</p> -->
     {% if post.citation %}
-    <div class="citation-block">
+  <div class="citation-block">
     <p><strong>Recommended citation:</strong></p>
     {{ post.citation | markdownify }}
-
-    {% assign links = "" %}
-    {% if post.paperurl %}
-      {% assign links = links | append: '<a href="' | append: post.paperurl | append: '">Download Paper</a>' %}
-    {% endif %}
-    {% if post.slidesurl %}
-      {% if links != "" %}{% assign links = links | append: ' | ' %}{% endif %}
-      {% assign links = links | append: '<a href="' | append: post.slidesurl | append: '">Download Slides</a>' %}
-    {% endif %}
-    {% if post.bibtexurl %}
-      {% if links != "" %}{% assign links = links | append: ' | ' %}{% endif %}
-      {% assign links = links | append: '<a href="' | append: post.bibtexurl | append: '">Download Bibtex</a>' %}
-    {% endif %}
-
-    {% if links != "" %}
-      <p>{{ links }}</p>
-    {% endif %}
-    </div>
-    {% endif %}
+    
+    <p>
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">Download Paper</a>{% endif %}
+      {% if post.slidesurl %} | <a href="{{ post.slidesurl }}">Download Slides</a>{% endif %}
+      {% if post.bibtexurl %} | <a href="{{ post.bibtexurl }}">Download Bibtex</a>{% endif %}
+    </p>
+  </div>
+{% endif %}
 
     {% elsif post.paperurl and post.bibtexurl %}
       <p><a href=" {{ post.paperurl }} ">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
