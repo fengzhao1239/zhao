@@ -71,8 +71,12 @@
     {% if post.citation %}
   <div class="citation-block">
     <p><strong>Recommended citation:</strong></p>
-    {{ post.citation | markdownify }}
-    
+
+    {% capture citation_md %}
+      {{ post.citation }}
+    {% endcapture %}
+    {{ citation_md | markdownify }}
+
     <p>
       {% if post.paperurl %}<a href="{{ post.paperurl }}">Download Paper</a>{% endif %}
       {% if post.slidesurl %} | <a href="{{ post.slidesurl }}">Download Slides</a>{% endif %}
@@ -80,6 +84,7 @@
     </p>
   </div>
 {% endif %}
+
 
     {% elsif post.paperurl and post.bibtexurl %}
       <p><a href=" {{ post.paperurl }} ">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
